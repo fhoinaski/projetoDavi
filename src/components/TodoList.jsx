@@ -1,5 +1,6 @@
 import { TodoItem } from "./TodoItem";
-import useToDos from "../contexts/useToDos.jsx";
+import { useToDos } from "../contexts/useToDos";
+
 
 export const TodoList = ({ name }) => {
   const { completedToDos, pendingToDos } = useToDos();

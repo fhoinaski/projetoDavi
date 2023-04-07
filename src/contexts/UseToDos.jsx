@@ -1,12 +1,12 @@
 import { useContext } from "react";
 import ToDoContext from "./ToDoProvider";
 
-const useToDos = () => {
+export const useToDos = () => {
   const context = useContext(ToDoContext);
 
   return context;
 };
-export default useToDos;
+
 
 
 
